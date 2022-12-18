@@ -37,3 +37,20 @@ prep_minutes: This field indicates the estimated preparation time for the recipe
 max_cook_time: This field indicates the maximum cooking time for the recipe. This could be used to filter recipes based on cooking time or to display the cooking time for the recipe.
 difficulty_level, difficulty_level_number, spice_level, spice_level_number: These fields indicate the difficulty or spiciness level of the recipe. This information could be used to filter recipes based on difficulty or spiciness level, or to display this information for the recipe.
 days_cook_by: This field indicates the recommended date for cooking the recipe. This could be used to filter recipes based on the recommended cooking date
+supply_photo: This field contains a URL for a photo of the supplies needed for the recipe. This could be used to display an image of the supplies in the recipe instructions.
+pdf_url: This field contains a URL for a PDF of the recipe. This could be used to link to a printable version of the recipe.
+meal_addon_id, meal_addon_name, meal_addon_display_name: These fields contain information about any additional meals or ingredients included with the recipe. This information could be used to display the contents of the recipe or to allow users to add additional items to the recipe.
+primary_label, secondary_label, primary_label_data: These fields contain information about labels or tags associated with the recipe (e.g. "vegetarian", "gluten-free"). This information could be used to filter recipes based on specific dietary preferences or to display the labels for the recipe.
+a_la_carte: This field indicates whether the recipe is available as an a la carte item. This could be used to filter recipes by availability.
+is_donation: This field indicates whether the recipe is a donation item. This could be used to filter recipes by donation status.
+before_you_cook_instructions, before_you_cook_instructions_markdown, did_you_know, did_you_know_markdown, what_you_need, utensils, chef, ingredients, instructions, customize_it_instructions: These fields contain information about the recipe, including instructions, ingredients, and additional notes. This information could be used to display the details of the recipe or to allow users to customize the recipe.
+rectangular_meal_badge, meal_badge: These fields contain information about badges or labels associated with the recipe (e.g. "new", "customizable"). This information could be used to display the badges for the recipe or to filter recipes by badge type.
+avoidances, intolerances: These fields contain information about ingredients that should be avoided or are intolerant to. This information could be used to filter recipes based on specific dietary restrictions or to display the ingredients to be avoided in the recipe.
+meal_concept: This field indicates the concept or theme of the recipe (e.g. "comfort food"). This could be used to filter recipes by theme or to display the theme of the recipe in search results.
+base_price_cents, total_price_with_upcharge, total_price_without_upcharge: These fields contain information about the price of the recipe. This information could be used to display the price of the recipe or to allow users to compare prices of different recipes.
+sold_out: This field indicates whether the recipe is sold out. This could be used to filter recipes by availability.
+price_promotion: This field contains information about any promotions or discounts available for the recipe. This information could be used to display the promotional pricing for the recipe.
+price: This field contains the current price of the recipe. This could be used to display the price of the recipe.
+opt_ins: This field contains information about any opt-in options available for the recipe (e.g. "add a side"). This information could be used to allow users
+servings: This field indicates the number of servings for the recipe. This could be useful for determining portion sizes or for allowing users to adjust the serving size of the recipe.
+
